@@ -1,5 +1,11 @@
 # TSW
 
+The Sports World is an angular application. It shows a wide range of sports items and accessories. From cricket and football to basketball, hockey, and tennis, explore a collection of high-quality sports gear. Responsive front-end implementation.
+
+Purely based on Angular.
+
+Only based on front-end.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
 
 ## Development server
