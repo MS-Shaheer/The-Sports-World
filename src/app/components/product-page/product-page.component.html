@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 mt-5 product" *ngIf="productData">
+            <img src="{{productData[0].sportsImage}}" alt="{{productData[0].sportsName}}'s Image" class="img-responsive" width="100%">
+            <h3>{{productData[0].sportsName}}</h3>
+            <p class="details">{{productData[0].sportsDetails}}</p>
+            <b>{{productData[0].price}}</b>
+        </div>
+
+        <div class="col-lg-6 col-lg-12 mt-5">
+            <h1>Enter Your Details</h1>
+            <form action="" class="form-group">
+                <label for="name" class="mt-2">Full Name</label>
+                <input type="text" id="name" name="name" class="form-control name" placeholder="Enter Full Name" required>
+                <label for="mobileno" class="mt-2">Mobile Number</label>
+                <input type="text" id="mobileno" name="mobileno" class="form-control mobileno" placeholder="Enter Mobile Number" required>
+                <label for="address" class="mt-2">Shipping Address</label>
+                <textarea type="text" id="address" name="address" class="form-control address" placeholder="Enter Shipping Address" required></textarea>
+
+                <button class="btn btn-primary btn-md subButton mt-5" role="button">PLACE ORDER <i class="bi bi-check"></i></button>
+            </form>
+        </div>
+    </div>
+    <a routerLink="/main" class="btn btn-warning mt-5 mb-5">BACK</a>
+</div>

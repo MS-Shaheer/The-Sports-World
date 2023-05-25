@@ -1,0 +1,56 @@
+.container {
+    background-color: #741e1e;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.contact-details ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-details ul li span {
+    font-style: italic;
+    margin-right: 25px;
+    margin-left: 5px;
+    padding: 15px;
+}
+
+.contact-details {
+    border: dotted 2px #fff;
+    border-radius: 10px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+input.ng-invalid {
+    border: solid 1px red;
+}
+
+.text-center {
+    padding-top: 10px;
+    text-decoration: underline;
+}
+
+.btn {
+    margin-left: 15px;
+}
+
+.bi-facebook {
+    margin-right: 35px;;
+}
+
+strong {
+    color: #000;
+}
+
+.contact-details ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #fff;
+}

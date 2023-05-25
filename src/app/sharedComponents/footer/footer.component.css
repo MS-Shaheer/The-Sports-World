@@ -1,0 +1,41 @@
+.container-fluid {
+    padding: 10px 20px;
+    overflow: hidden;
+    background-color: #2a0512;
+    position: sticky;
+    top: 100%;
+}
+
+.text {
+    font-weight: bolder;
+    padding: 2px 3px;
+    color: #dbdad9;
+}
+
+.border-top {
+    border-top: var(--bs-border-width) var(--bs-border-style) #193c5e!important;
+}
+
+svg {
+    color: #f7a0a0;
+    padding: 2px 2px;
+}
+
+a:hover {
+    color: var(--primary-color)
+}
+
+a {
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+p {
+    color: #d6fbf9;
+    font-weight: bold;
+    /* border: solid 2px #556ed6; */
+    font-size: 15px;
+    padding-top: 4px;
+    margin-left: 20vh;
+}
+

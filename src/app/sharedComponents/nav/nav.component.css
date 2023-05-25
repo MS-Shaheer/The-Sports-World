@@ -1,0 +1,22 @@
+.nav-link.active-link {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.nav-link {
+    color: var(--secondary-color);
+}
+
+
+.navbar-brand {
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    color: #e53232;
+    text-decoration: none;
+    white-space: nowrap;
+    padding-left: 1rem;
+}
+
+

@@ -1,0 +1,16 @@
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-lg-4 mt-4" *ngFor="let sports of sportsData">
+            <div class="sportsItemBox">
+                <img src="{{sports.sportsImage}}" alt="{{sports.sportsName}}'s item image">
+                <h1>{{sports.sportsName}}</h1>
+                <p>{{sports.sportsDetails}}</p>
+                <b>{{sports.price}}</b>
+            </div>
+            <br>
+            <a class="buy mb-5" [routerLink]="['/main', sports.id]">
+                BUY <i class="bi bi-shop"></i>
+            </a>
+        </div>
+    </div>
+</div>
